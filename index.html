@@ -34,7 +34,7 @@
 
         for (a in data) {
           output += `
-                <tr> 
+                <tr onclick="editContact(${data[a].id})"> 
                 <td><img src="${rootPath}controller/uploads/${data[a].avatar}" width="40px" /></td>
                 <td><h5>${data[a].firstname} </h5></td>
                 <td> <h5>${data[a].lastname} </h5></td>
@@ -47,6 +47,21 @@
       function addContact() {
         window.open("add-contact.html", "_self");
       }
+      function editContact(id) {
+        window.open("edit-contact.html? id=" + id, "_self");
+      }
     </script>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/MLZ6" target="_blank">Maitumelo Moaletsi</a>
+      and is open-sourced on
+      <a href="https://github.com/MLZ6/phone-book-app-fnb" target="_blank"
+        >Github</a
+      >
+      and hosted on
+      <a href="https://charming-fairy-a3e8bf.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </footer>
   </body>
 </html>

@@ -1,0 +1,118 @@
+/* General Body Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Avatar Image Styling */
+#avatarImage {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#avatarImage img {
+  border-radius: 50%;
+  border: 4px solid #007bff;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Form Styling */
+form#editForm {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+/* Label Styling */
+form#editForm label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input Styling */
+form#editForm input[type="text"],
+form#editForm input[type="file"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Buttons Styling */
+button {
+  padding: 10px 20px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Button Types */
+#editContact {
+  background-color: #ffc107;
+  color: #000;
+}
+
+#deleteContact {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#homeLink {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+#submitForm {
+  background-color: #28a745;
+  color: #fff;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Button Hover Effects */
+button:hover {
+  opacity: 0.9;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

@@ -1,0 +1,91 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 20px;
+  padding: 0;
+  color: #333;
+}
+
+/* Container for the table */
+#table {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+/* Contact table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+table tr:hover {
+  background-color: #f0f8ff;
+}
+
+table td {
+  padding: 12px;
+  vertical-align: middle;
+}
+
+table img {
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  margin: 10px 5px 0 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive image */
+td img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

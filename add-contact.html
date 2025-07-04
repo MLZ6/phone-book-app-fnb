@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style2.css" />
     <title>ADD-CONTACT</title>
   </head>
   <body>
@@ -19,9 +20,13 @@
       <label for="avatar">Select a file</label><br />
       <input type="file" name="avatar" id="avatar" /><br />
       <button type="submit" id="submitForm">Submit</button>
+      <button id="homeLink" type="button">Home</button>
     </form>
+
     <br />
-    <button id="homeLink" type="button">Home</button>
+
+    <br />
+
     <script src="src/config.js"></script>
     <script>
       document
@@ -57,5 +62,17 @@
         window.open("index.html", "_self");
       }
     </script>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/MLZ6" target="_blank">Maitumelo Moaletsi</a>
+      and is open-sourced on
+      <a href="https://github.com/MLZ6/phone-book-app-fnb" target="_blank"
+        >Github</a
+      >
+      and hosted on
+      <a href="https://charming-fairy-a3e8bf.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </footer>
   </body>
 </html>
